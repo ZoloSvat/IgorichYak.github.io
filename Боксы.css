@@ -1,0 +1,123 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  body {
+
+    font-family: 'League Spartan', sans-serif;
+    background-color: #E3E2DE;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.overview {
+    min-width: 100%;
+    min-height: 350px;
+    background-color: #9B1750;
+    border-radius: 10px;
+}
+
+.background-top {
+    min-width: 100%;
+    min-height: 150px;
+    background-color: #E3E2DE;
+    margin-top: 2px;
+    border-radius: 3px;
+    margin-top: 5px;  
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+}
+.centered img {
+    width: 40px
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 370px;
+    right: 10px;
+    margin-left: 995px;
+    margin-right: 300px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: #E3AFBC;
+    border-radius: 5px;
+}
+
+.background-middle {
+    min-width: 70%;
+    min-height: 280px;
+    margin-right: 25%;
+    margin-left: 5%;
+    margin-top: 5px;
+    background-color: #5D001D;
+    border-radius: 10px;
+}
+
+.background-bottom {
+    min-width: 70%;
+    min-height: 260px;
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #EE4C7D;
+    border-radius: 10px;
+}
+.background-middle h2 {
+    padding-top: 100px;
+    padding-left: 920px;
+    color: white;
+}
+
+.control {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 920px;
+    font-size: 25px;
+    color: white;
+}
+
+.control-button button {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 55px;
+    border-radius: 10px;
+    
+}
